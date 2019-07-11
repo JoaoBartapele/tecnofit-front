@@ -12,10 +12,11 @@ Leia atentamente as instruções antes de iniciar.
  - Desenvolva as seguintes telas:
    - layout/relatorio.png
    - layout/relatorio_detalhe.png
- - As informações estarão disponiveis nos seguintes end-points:
-   - End-point 1
-   - End-point 2
- - 
+ - Crie as informações de algum modo na pasta API:
+   - Pode ser a linguagem de programação de sua preferencia;
+   - Deverá listar as informações da maneira que o layout pede;
+   - Deverá atualizar a informação prevista no layout;
+ - O clique na linha do evento, abre os detalhes;
 
 ## Cuidados
 
