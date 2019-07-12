@@ -1,16 +1,145 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <img width="300" alt="Tecnofit" src="https://s3-sa-east-1.amazonaws.com/tecnofit-pub/app/01_200px.png">
-</div>
-<h2>Teste para Front-end {{ title }}! </h2>
-<ul>
-  <li>
-    Desenvolva as seguintes telas conforme instruções do README:
-    <ul>
-      <li>layout/relatorio.png</li>
-      <li>layout/relatorio_detalhe.png</li>
-    </ul>
-   </li>
-</ul>
+<div class="container">
+  <div class="content">
+    <div class="row">
+      <div class="col text-center">
+        <img width="300" alt="Tecnofit" src="https://s3-sa-east-1.amazonaws.com/tecnofit-pub/app/01_200px.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Teste para desenvolvedor Front-end</h2>
+        <p>
+          Para este teste, separamos alguns pontos que julgamos ser de extrema importância para a Tecnofit.
+          Abaixo, teremos algumas instruções, alguns cuidados e o objetivo do teste.
+        </p>
+        <h3>Instruções</h3>
+        <p>
+          Relatório de aulas por professor.
+          Cada professor tem várias turmas, cada turma várias aulas e cada aula vários alunos.
+        </p>
+        <p>
+          Na visualização inicial, o usuário verá somente os professores, suas turmas e suas aulas.
+          Ao clicar na linha do evento, o detalhe contendo os alunos presentes naquela aula deverá ser exibido.
+        </p>
+        <p>
+        Leia atentamente as instruções antes de iniciar.
+        </p>
+        <ul>
+          <li>Baixe o repositório em sua máquina local;</li>
+          <li>Nele irá conter a estrutura básica do Angular e uma pasta para a API;</li>
+          <li>Desenvolva as seguintes telas dentro do Angular:
+            <ul>
+              <li>
+                <a href="https://www.figma.com/file/dOIGoQJAf1L5pJIusnbU8rjD/Teste-Front?node-id=0%3A1" target="_blank">Layout</a>
+              </li>
+            </ul>
+          </li>
+          <li>Crie as informações de algum modo na pasta API:
+            <ul>
+              <li>Pode ser no formato de sua preferência;
+                <ul>
+                  <li>Ex.: API, JSON, etc;</li>
+                </ul>
+              </li>
+            </ul>
+          <li>Deverá listar as informações contidas no layout geral:
+            <ul>
+              <li>Professor
+                <ul>
+                  <li>Turmas
+                    <ul>
+                      <li>Data da Aula</li>
+                      <li>Horário da aula</li>
+                      <li>Bloqueados</li>
+                      <li>Agenda Fixa</li>
+                      <li>Aula Avulsa</li>
+                      <li>Reposição</li>
+                      <li>Faltas</li>
+                      <li>Prospect</li>
+                      <li>Bolsistas</li>
+                      <li>Total de alunos</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Deverá listar as informações previstas no layout do detalhe:
+            <ul>
+              <li>Turma</li>
+              <li>Data da aula</li>
+              <li>Hora da aula</li>
+              <li>Alunos
+                <ul>
+                  <li>Nome do aluno</li>
+                  <li>Origem</li>
+                  <li>Aparelho</li>
+                  <li>Nome do Contrato</li>
+                  <li>Inicio e Fim do Contrato</li>
+                  <li>Tipo do Checkin</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>O clique na linha do evento no layout geral, abre o layout do detalhe;</li>
+          <li>O tipo de checkin deve ser atualizavel;</li>
+        </ul>
+        <ul>
+          <li>Filtros do relatório:
+            <ul>
+              <li>Periodo (considerar a data da aula, por default, o mês atual);</li>
+              <li>Tipo de checkin (por padrão trás todos);</li>
+              <li>Filtrar turmas (Caso queira visualizar somente uma turma especifica);</li>
+              <li>Filtrar professor (Caso queira visualizar um professor somente);</li>
+              <li>* Se filtrar uma turma, deve somente mostrar os professores que tem aquela turma no filtro de professor);</li>
+              <li>* Se filtrar um periodo, deve somente mostrar os professores que deram aula naquele periodo nos filtros);</li>
+            </ul>
+          </li>
+        </ul>
 
+        <h3>Informações complementares</h3>
+
+        <ul>
+          <li>Tipos de chekin:
+            <ul>
+              <li>Reposição</li>
+              <li>Aula avulsa</li>
+              <li>Agenda fixa</li>
+              <li>Prospect</li>
+              <li>Bolsista</li>
+              <li>Bloqueado</li>
+              <li>Faltas</li>
+            </ul>
+          </li>
+          <li>Origens:
+            <ul>
+              <li>Aplicativo</li>
+              <li>Manual</li>
+              <li>Matricula</li>
+              <li>Automática</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>Cuidados</h3>
+
+        <p>
+          Alguns cuidados devem ser tomados durante a execução do teste, veja abaixo quais são eles:
+        </p>
+
+        <ul>
+          <li>Tela deve ser criada em Lazy-load;</li>
+          <li>Carregamento dos itens conforme necessidade de exibição;</li>
+          <li>Clique na linha do evento abre os detalhes com as pessoas que estão naquele evento;</li>
+        </ul>
+
+        <h3>Objetivo</h3>
+
+        <p>
+          Analisar as técnicas de desenvolvimento, qualidade do código e soluções de problemas.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <router-outlet></router-outlet>

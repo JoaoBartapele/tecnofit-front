@@ -1,21 +1,21 @@
 # Teste para desenvolvedor Front-end
 
-Para este teste, separamos alguns pontos que julgamos serem de extrema importância para a Tecnofit.
+Para este teste, separamos alguns pontos que julgamos ser de extrema importância para a Tecnofit.
 Abaixo, teremos algumas instruções, alguns cuidados e o objetivo do teste.
 
 ## Instruções
 
-O relatório que deverá desenvolver é um relatório de aulas de cada professor.
-Um professor pode ter diversas turmas e uma turma, diversas aulas.
-Dentro de cada aula, existe os alunos, eles podem ser de diversos tipos, conforme informações complementares.
+Relatório de aulas por professor.
+Cada professor tem várias turmas, cada turma várias aulas e cada aula vários alunos.
 
-Na visualização inicial, o usuário verá somente os professores, suas turmas e suas aulas. Ao clicar na linha do evento, o detalhe contendo os alunos presentes naquela aula deverá ser exibido.
+Na visualização inicial, o usuário verá somente os professores, suas turmas e suas aulas.
+Ao clicar na linha do evento, o detalhe contendo os alunos presentes naquela aula deverá ser exibido.
 
 Leia atentamente as instruções antes de iniciar.
 
  - Baixe o repositório em sua máquina local;
- - Nele irá conter a estrutura básica do Angular;
- - Desenvolva as seguintes telas:
+ - Nele irá conter a estrutura básica do Angular e uma pasta para a API;
+ - Desenvolva as seguintes telas dentro do Angular:
    - https://www.figma.com/file/dOIGoQJAf1L5pJIusnbU8rjD/Teste-Front?node-id=0%3A1
  - Crie as informações de algum modo na pasta API:
    - Pode ser no formato de sua preferência;
